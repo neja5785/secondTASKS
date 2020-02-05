@@ -7,7 +7,7 @@ public class EmployeeManager {
 
         Employee employee = new Employee();
 
-        employee.setFirstName("Vardas");
+        
         employee.setContractStartDate(LocalDate.now());
         employee.setPosition("Developer");
         employee.setContractType(ContractType.FULL_TIME);
